@@ -6,6 +6,8 @@ def factorial(a):
 
 n=int(input())
 m=int(input())
-C=(factorial(n))/((factorial(m))*(factorial(n-m)))
-print(C)
-
+if n>m:
+    C=(factorial(n))/((factorial(m))*(factorial(n-m)))
+    print(C)
+else:
+    print("n e mai mic ca m")
