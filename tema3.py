@@ -7,5 +7,8 @@ q=int(input())
 w=int(input())
 e=int(input())
 r=int(input())
-print(adunarea_2f(q,w,e,r))
-print(inmultirea_2f(q,w,e,r))
+if (w!=0)and(r!=0):
+    print(adunarea_2f(q,w,e,r))
+    print(inmultirea_2f(q,w,e,r))
+else:
+    print("nu e posibila impartirea la 0")
