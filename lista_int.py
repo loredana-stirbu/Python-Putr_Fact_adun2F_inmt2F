@@ -21,7 +21,7 @@ def creare_lista_float():
         try:
             lista_locala.append(float(element))
         except ValueError:
-            while not element.isnumeric():
+            while not element.isdecimal():
                 element=input("Introdu un nr. int:")
             lista_locala.append(float(element))
     return lista_locala
